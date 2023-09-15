@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tree Chopper</title>
+  </head>
+  <body>
+    <style>
+      body {
+        margin: 0;
+      }
+    </style>
+    <canvas id="game-canvas" style="position: absolute"></canvas>
+    <div id="scorediv" style="font-size: 40px">
+      <span style="position: relative">Score: </span
+      ><span id="score" style="position: relative">0</span>
+    </div>
+    <div id="gameover" style="display: none;">
+      <div>
+        <h1>Game Over</h1>
+        <h2 id="finalscore">0</h2>
+        <p>points</p>
+        <div>
+          <button id="retry">Restart</button>
+        </div>
+      </div>
+    </div>
+    <script src="./tree_chopper.js"></script>
+  </body>
+</html>
